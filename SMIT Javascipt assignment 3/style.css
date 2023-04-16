@@ -1,0 +1,124 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #userPreferencesForm {
+    margin-bottom: 20px;
+  }
+  
+  #recommendationsContainer {
+    margin-top: 20px;
+  }
+  
+
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button[id="recBtn"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #a00e96;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+ 
+  #recommendationsList {
+    list-style-type: none;
+  }
+  
+  #recommendationsList li {
+    margin-bottom: 10px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+     input {
+      width: 100%;
+    }
+  
+    button[id="recBtn"] {
+      width: 100%;
+    }
+  
+    #recommendationsList li {
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+  }
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#userPreferencesForm {
+  margin-bottom: 20px;
+}
+
+#recommendationsContainer {
+  margin-top: 20px;
+}
+
+
+input[type="text"],
+input[type="number"],select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[id="recBtn"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color:#a00e96;
+  color: #fff;
+  border: none;
+ 
+}
+
+
+#recommendationsList {
+  list-style-type: none;
+}
+
+#recommendationsList li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+   input {
+    width: 100%;
+  }
+
+  button[id="recBtn"] {
+    width: 100%;
+  }
+
+  #recommendationsList li {
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+}
