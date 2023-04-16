@@ -1,3 +1,5 @@
+// SMIT Javascript Assignment 3
+//submitted by Nimra Jawed
 (async function(){
     const response= await fetch("./data.json");
     const movies=await response.json();
